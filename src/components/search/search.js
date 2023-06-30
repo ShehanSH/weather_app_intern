@@ -41,7 +41,7 @@ const Search = ({ onSearchChange }) => {
   const handleLogout = () => {
     // Perform logout logic here
     // This could include clearing user session, redirecting, etc.
-    window.location.href = '/login';
+    window.location.href = 'https://weather-app-intern-task.onrender.com/';
     console.log('User logged out');
   };
   
